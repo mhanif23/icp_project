@@ -1,0 +1,36 @@
+{
+    "canisters": {
+        "hello_world": {
+            "type": "azle",
+            "main": "src/index.ts",
+            "declarations": {
+                "output": "test/dfx_generated/hello_world",
+                "node_compatibility": true
+            }
+        },
+        "auth": {
+            "type": "azle",
+            "main": "src/auth/index.ts",
+            "declarations": {
+                "output": "test/dfx_generated/auth",
+                "node_compatibility": true
+            }
+        },
+        "marketplace": {
+            "type": "azle",
+            "main": "src/marketplace/index.ts",
+            "declarations": {
+                "output": "test/dfx_generated/marketplace",
+                "node_compatibility": true
+            }
+        },
+        "token": {
+            "type": "azle",
+            "main": "src/token/index.ts",
+            "declarations": {
+                "output": "test/dfx_generated/token",
+                "node_compatibility": true
+            }
+        }
+    }
+}
